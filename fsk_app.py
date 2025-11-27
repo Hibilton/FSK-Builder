@@ -9,9 +9,12 @@ DATA_FILE = "fsk_build_options_generated.csv"
 
 @st.cache_data
 def load_data(path: str) -> pd.DataFrame:
+    """Load and clean the FSK build CSV with basic validation."""
     df = pd.read_csv(path)
 
-    # Basic sanity checks to avoid KeyErrors if Sheets has mangled things
+    # --- 1) Normalise column names ---
+    df.columns = [c.strip() for c in df.columns]
+
     expected_cols = [
         "System", "ShaftSize", "ShaftUnits", "SternSize", "SternUnits",
         "FSK_Template", "FSK_Notes", "Priority", "RuleType",
@@ -23,15 +26,42 @@ def load_data(path: str) -> pd.DataFrame:
     if missing:
         raise KeyError(f"Missing columns in CSV: {missing}")
 
-    # Normalise numeric fields
+    # --- 2) Strip whitespace from key text columns ---
+    text_cols = [
+        "System", "ShaftUnits", "SternUnits", "FSK_Template",
+        "RuleType", "FSA_Template", "Hose_Code",
+        "Clamp1_Code", "Clamp2_Code",
+    ]
+    for col in text_cols:
+        if col in df.columns:
+            df[col] = df[col].astype("string").str.strip()
+
+    # --- 3) Normalise numeric fields ---
     numeric_cols = [
         "ShaftSize", "SternSize", "Priority",
         "FSA_Tail_OD_in", "Hose_End1_in", "Hose_End2_in",
     ]
     for c in numeric_cols:
-        df[c] = pd.to_numeric(df[c], errors="coerce")
+        if c in df.columns:
+            df[c] = pd.to_numeric(df[c], errors="coerce")
 
-    return df
+    # Drop completely unusable rows (no system/shaft/stern/FSK)
+    base_mask = (
+        df["System"].notna()
+        & df["ShaftSize"].notna()
+        & df["SternSize"].notna()
+        & df["FSK_Template"].notna()
+    )
+    bad_rows = df[~base_mask].copy()
+    df = df[base_mask].copy()
+
+    # Attach a small summary so we can show diagnostics in the UI
+    meta = {
+        "total_rows": len(df) + len(bad_rows),
+        "kept_rows": len(df),
+        "dropped_rows": len(bad_rows),
+    }
+    return df, meta
 
 
 def format_size(value: float, units: str) -> str:
@@ -39,7 +69,7 @@ def format_size(value: float, units: str) -> str:
         return "—"
     if units == "mm":
         return f"{value:.0f} {units}"
-    return f"{value:.3f} {units}"
+    return f"{value:.3f} {units}"  # inches
 
 
 def main():
@@ -55,20 +85,56 @@ def main():
         st.error(f"Could not find data file: {csv_path.resolve()}")
         st.stop()
 
-    df = load_data(str(csv_path))
+    # Load & clean
+    try:
+        df, meta = load_data(str(csv_path))
+    except KeyError as e:
+        st.error(f"CSV format error: {e}")
+        st.stop()
+
+    # --- Global data quality summary ---
+    with st.expander("Data quality summary", expanded=False):
+        st.write(f"**Total rows in CSV:** {meta['total_rows']}")
+        st.write(f"**Usable rows after cleaning:** {meta['kept_rows']}")
+        st.write(f"**Dropped rows (missing System/Shaft/Stern/FSK):** {meta['dropped_rows']}")
+
+        # Check for combos with no Priority 1 (no recommended build)
+        combo_group = df.groupby(["System", "ShaftSize", "SternSize"], dropna=True)
+        no_rec_mask = combo_group["Priority"].transform(lambda s: ~(s == 1).any())
+        combos_without_rec = (
+            df[no_rec_mask][["System", "ShaftSize", "SternSize"]]
+            .drop_duplicates()
+            .sort_values(["System", "ShaftSize", "SternSize"])
+        )
+
+        if not combos_without_rec.empty:
+            st.warning(
+                f"There are {len(combos_without_rec)} shaft/stern combinations "
+                "without a Priority 1 recommended build."
+            )
+            st.dataframe(combos_without_rec, use_container_width=True)
+        else:
+            st.success("Every System / Shaft / Stern combination has at least one Priority 1 build.")
 
     # Sidebar controls
     st.sidebar.header("Filters")
 
     systems = sorted(df["System"].dropna().unique().tolist())
+    if not systems:
+        st.error("No systems found in the data after cleaning.")
+        st.stop()
+
     system = st.sidebar.radio("System", systems, horizontal=True)
 
     df_sys = df[df["System"] == system].copy()
+    if df_sys.empty:
+        st.error(f"No rows found for system '{system}'. Check System values in the CSV.")
+        st.stop()
 
     # Shaft dropdown
     shaft_sizes = sorted(df_sys["ShaftSize"].dropna().unique().tolist())
     if not shaft_sizes:
-        st.error("No shaft sizes available.")
+        st.error("No shaft sizes available for this system.")
         st.stop()
 
     shaft_units = df_sys["ShaftUnits"].dropna().iloc[0]
@@ -80,11 +146,14 @@ def main():
     )
 
     df_shaft = df_sys[df_sys["ShaftSize"] == shaft_size].copy()
+    if df_shaft.empty:
+        st.warning("No rows found for this shaft size after filtering.")
+        st.stop()
 
     # Stern dropdown
     stern_sizes = sorted(df_shaft["SternSize"].dropna().unique().tolist())
     if not stern_sizes:
-        st.error("No stern sizes available.")
+        st.error("No stern tube sizes available for this shaft size.")
         st.stop()
 
     stern_units = df_shaft["SternUnits"].dropna().iloc[0]
@@ -106,7 +175,10 @@ def main():
     )
 
     if candidates.empty:
-        st.warning("No FSK builds found for this combination.")
+        st.error(
+            "No FSK builds found for this exact combination after cleaning. "
+            "This usually means the CSV is missing rows for this shaft/stern size."
+        )
         st.stop()
 
     # Sort by Priority
@@ -163,28 +235,26 @@ def main():
     # -------------------------------
     st.markdown("### All builds for this combination")
 
-    # Columns to display (in priority order)
     display_cols = [
         "FSK_Template",
         "Priority",
         "FSA_Template",
         "Hose_Code",
         "RuleType",
-        "FSK_Notes",    
     ]
 
-    # Ensure missing columns exist
     for col in display_cols:
         if col not in candidates_sorted.columns:
             candidates_sorted[col] = ""
 
     table = (
         candidates_sorted[display_cols]
-        .sort_values(["Priority", "FSK_Template"])
+        .sort_values(["Priority", "FSK_Template", "Hose_Code"])
         .reset_index(drop=True)
     )
 
     st.dataframe(table, use_container_width=True)
+
 
 if __name__ == "__main__":
     main()
