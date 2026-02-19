@@ -1,0 +1,397 @@
+ShaftSize,ShaftUnits,SternSize,SternUnits,Priority,FSA_Template,Hose_Code,Hose_Orientation,Clamp1_Code,Clamp1_Qty,Clamp2_Code,Clamp2_Qty,Is_US_Recommended,Stretch_Type,Stretch_Backend_in,Stretch_Stern_in,Comments
+1.0,in,1.75,in,2,FSA-1000-2000-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.0,in,1.875,in,5,FSA-1000-2000-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch stern,0.0,0.125,Rule Engine
+1.0,in,2.0,in,2,FSA-1000-2000-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.0,in,2.0,in,3,FSA-1000-2000-1,HS 1750-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch backend,0.25,0.0,Rule Engine
+1.0,in,2.0,in,4,FSA-1000-2000-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.0,in,2.0,in,5,FSA-1000-2000-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch stern,0.0,0.25,Rule Engine
+1.0,in,2.5,in,2,FSA-1000-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.125,in,1.75,in,2,FSA-1125-2000-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.125,in,2.0,in,2,FSA-1125-2000-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.125,in,2.0,in,3,FSA-1125-2000-1,HS 1750-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch backend,0.25,0.0,Rule Engine
+1.125,in,2.0,in,4,FSA-1125-2000-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.125,in,2.0,in,5,FSA-1125-2000-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch stern,0.0,0.25,Rule Engine
+1.125,in,2.5,in,4,FSA-1125-2500-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,1.75,in,2,FSA-1250-2000-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.0,in,2,FSA-1250-2000-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.0,in,3,FSA-1250-2000-1,HS 1750-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch backend,0.25,0.0,Rule Engine
+1.25,in,2.0,in,4,FSA-1250-2000-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.0,in,5,FSA-1250-2000-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch stern,0.0,0.25,Rule Engine
+1.25,in,2.25,in,4,FSA-1250-2250-1,HOSE 2250,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.375,in,4,FSA-1250-2375-1,HOSE 2375,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.5,in,2,FSA-1250-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.5,in,2,FSA-1250-2750-1,HS 2500-2750,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.5,in,4,FSA-1250-2500-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.625,in,2,FSA-1250-2500-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.625,in,3,FSA-1250-2625-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.125,0.0,Rule Engine
+1.25,in,2.625,in,4,FSA-1250-2625-1,HOSE 2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.625,in,5,FSA-1250-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.125,Rule Engine
+1.25,in,2.625,in,5,FSA-1250-2750-1,HS 2500-2750,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.125,Rule Engine
+1.25,in,2.75,in,2,FSA-1250-2500-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.75,in,3,FSA-1250-2625-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.125,0.0,Rule Engine
+1.25,in,2.75,in,3,FSA-1250-2750-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.25,0.0,Rule Engine
+1.25,in,2.75,in,4,FSA-1250-2750-1,HOSE 2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,2.75,in,5,FSA-1250-2750-1,HS 2500-2750,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.25,Rule Engine
+1.25,in,3.0,in,2,FSA-1250-3000-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.25,in,3.0,in,4,FSA-1250-3000-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.0,in,2,FSA-1375-2000-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.0,in,3,FSA-1375-2000-1,HS 1750-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch backend,0.25,0.0,Rule Engine
+1.375,in,2.0,in,4,FSA-1375-2000-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.0,in,5,FSA-1375-2000-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch stern,0.0,0.25,Rule Engine
+1.375,in,2.25,in,4,FSA-1375-2250-1,HOSE 2250,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.375,in,4,FSA-1375-2375-1,HOSE 2375,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.5,in,2,FSA-1375-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.5,in,4,FSA-1375-2500-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.625,in,2,FSA-1375-2500-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.625,in,3,FSA-1375-2625-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.125,0.0,Rule Engine
+1.375,in,2.625,in,4,FSA-1375-2625-1,HOSE 2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.625,in,5,FSA-1375-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.125,Rule Engine
+1.375,in,2.75,in,2,FSA-1375-2500-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.375,in,2.75,in,3,FSA-1375-2625-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.125,0.0,Rule Engine
+1.5,in,2.25,in,4,FSA-1500-2250-1,HOSE 2250,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,2.375,in,4,FSA-1500-2375-1,HOSE 2375,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,2.5,in,2,FSA-1500-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,2.5,in,2,FSA-1500-2750-1,HS 2500-2750,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,2.5,in,4,FSA-1500-2500-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,2.625,in,2,FSA-1500-2500-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,2.625,in,3,FSA-1500-2625-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.125,0.0,Rule Engine
+1.5,in,2.625,in,4,FSA-1500-2625-1,HOSE 2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,2.625,in,5,FSA-1500-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.125,Rule Engine
+1.5,in,2.625,in,5,FSA-1500-2750-1,HS 2500-2750,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.125,Rule Engine
+1.5,in,2.75,in,2,FSA-1500-2500-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,2.75,in,3,FSA-1500-2625-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.125,0.0,Rule Engine
+1.5,in,2.75,in,3,FSA-1500-2750-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.25,0.0,Rule Engine
+1.5,in,2.75,in,4,FSA-1500-2750-1,HOSE 2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,2.75,in,5,FSA-1500-2750-1,HS 2500-2750,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.25,Rule Engine
+1.5,in,3.0,in,2,FSA-1500-3000-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.5,in,3.0,in,4,FSA-1500-3000-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.625,in,2.5,in,2,FSA-1625-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.625,in,2.75,in,3,FSA-1625-2625-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.125,0.0,Rule Engine
+1.75,in,2.5,in,2,FSA-1750-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.75,in,2.5,in,4,FSA-1750-2500-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.75,in,2.625,in,2,FSA-1750-2500-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.75,in,2.625,in,3,FSA-1750-2625-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.125,0.0,Rule Engine
+1.75,in,2.625,in,4,FSA-1750-2625-1,HOSE 2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.75,in,2.625,in,5,FSA-1750-2625-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.125,Rule Engine
+1.75,in,2.75,in,2,FSA-1750-2500-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.75,in,2.75,in,3,FSA-1750-2625-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.125,0.0,Rule Engine
+1.75,in,3.0,in,2,FSA-1750-3000-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.75,in,3.0,in,4,FSA-1750-3000-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.75,in,3.25,in,2,FSA-1750-3250-1,HS 3250-3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+1.75,in,3.25,in,4,FSA-1750-3250-1,HOSE 3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.0,in,2.75,in,3,FSA-2000-2750-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.25,0.0,Rule Engine
+2.0,in,2.75,in,4,FSA-2000-2750-1,HOSE 2750,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.0,in,2.75,in,5,FSA-2000-2750-1,HS 2500-2750,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.25,Rule Engine
+2.0,in,3.0,in,2,FSA-2000-3000-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.0,in,3.0,in,4,FSA-2000-3000-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.0,in,3.25,in,2,FSA-2000-3250-1,HS 3250-3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.0,in,3.25,in,4,FSA-2000-3250-1,HOSE 3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.0,in,3.75,in,5,FSA-2000-4000-1,HS 3500-4000,B->Backend,CLAMP-4000,2,CLAMP-4000,2,False,Stretch stern,0.0,0.2400000000000002,Rule Engine
+2.0,in,4.0,in,4,FSA-2000-4000-1,HOSE 4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.0,in,4.25,in,2,FSA-2000-4000-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.0,in,4.5,in,2,FSA-2000-4000-1,HS 4000-4500,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.0,in,5.0,in,2,FSA-2000-4000-1,HS 4000-5000,A->Backend,CLAMP-4000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.25,in,3.0,in,2,FSA-2250-3000-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.25,in,3.0,in,4,FSA-2250-3000-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.25,in,3.25,in,2,FSA-2250-3250-1,HS 3250-3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.25,in,3.25,in,4,FSA-2250-3250-1,HOSE 3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.25,in,3.75,in,3,FSA-2250-3750-1,HS 3500-3750,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,Stretch backend,0.2400000000000002,0.0,Rule Engine
+2.25,in,3.75,in,4,FSA-2250-3750-1,HOSE 3750,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.25,in,3.75,in,5,FSA-2250-3750-1,HS 3500-3750,B->Backend,CLAMP-4000,2,CLAMP-4000,2,False,Stretch stern,0.0,0.2400000000000002,Rule Engine
+2.25,in,4.0,in,3,FSA-2250-3750-1,HS 3500-4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,Stretch backend,0.2400000000000002,0.0,Rule Engine
+2.5,in,3.25,in,2,FSA-2500-3250-1,HS 3250-3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.5,in,3.25,in,4,FSA-2500-3250-1,HOSE 3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.5,in,3.75,in,5,FSA-2500-4000-1,HS 3500-4000,B->Backend,CLAMP-4000,2,CLAMP-4000,2,False,Stretch stern,0.0,0.2400000000000002,Rule Engine
+2.5,in,4.0,in,2,FSA-2500-4500-1,HS 4000-4500,B->Backend,CLAMP-4500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.5,in,4.0,in,4,FSA-2500-4000-1,HOSE 4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.5,in,4.25,in,2,FSA-2500-4000-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.5,in,4.25,in,5,FSA-2500-4500-1,HS 4000-4500,B->Backend,CLAMP-4500,2,CLAMP-4500,2,False,Stretch stern,0.0,0.25,Rule Engine
+2.5,in,4.5,in,2,FSA-2500-4000-1,HS 4000-4500,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.5,in,4.5,in,2,FSA-2500-4500-1,HS 4500-4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.5,in,4.5,in,4,FSA-2500-4500-1,HOSE 4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.5,in,5.0,in,2,FSA-2500-4000-1,HS 4000-5000,A->Backend,CLAMP-4000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.5,in,5.0,in,2,FSA-2500-4500-1,HS 4500-5000,A->Backend,CLAMP-4500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.75,in,3.75,in,5,FSA-2750-4000-1,HS 3500-4000,B->Backend,CLAMP-4000,2,CLAMP-4000,2,False,Stretch stern,0.0,0.2400000000000002,Rule Engine
+2.75,in,4.0,in,2,FSA-2750-5000-1,HS 4000-5000,B->Backend,CLAMP-5000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.75,in,4.0,in,4,FSA-2750-4000-1,HOSE 4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.75,in,4.25,in,2,FSA-2750-4000-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.75,in,4.5,in,2,FSA-2750-4000-1,HS 4000-4500,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.75,in,4.5,in,2,FSA-2750-5000-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.75,in,4.75,in,5,FSA-2750-5000-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-5000,2,False,Stretch stern,0.0,0.25,Rule Engine
+2.75,in,5.0,in,2,FSA-2750-4000-1,HS 4000-5000,A->Backend,CLAMP-4000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.75,in,5.0,in,4,FSA-2750-5000-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+2.75,in,5.5,in,2,FSA-2750-5000-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.0,in,2,FSA-3000-4500-1,HS 4000-4500,B->Backend,CLAMP-4500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.0,in,2,FSA-3000-5000-1,HS 4000-5000,B->Backend,CLAMP-5000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.0,in,4,FSA-3000-4000-1,HOSE 4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.25,in,2,FSA-3000-4000-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.25,in,5,FSA-3000-4500-1,HS 4000-4500,B->Backend,CLAMP-4500,2,CLAMP-4500,2,False,Stretch stern,0.0,0.25,Rule Engine
+3.0,in,4.5,in,2,FSA-3000-4000-1,HS 4000-4500,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.5,in,2,FSA-3000-4500-1,HS 4500-4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.5,in,2,FSA-3000-5000-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.5,in,4,FSA-3000-4500-1,HOSE 4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.75,in,4,FSA-3000-4750-1,HOSE 4750,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,4.75,in,5,FSA-3000-5000-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-5000,2,False,Stretch stern,0.0,0.25,Rule Engine
+3.0,in,5.0,in,2,FSA-3000-4000-1,HS 4000-5000,A->Backend,CLAMP-4000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,5.0,in,2,FSA-3000-4500-1,HS 4500-5000,A->Backend,CLAMP-4500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,5.0,in,2,FSA-3000-5500-1,HS 5000-5500,B->Backend,CLAMP-5500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,5.0,in,3,FSA-3000-4750-1,HS 4500-5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,Stretch backend,0.25,0.0,Rule Engine
+3.0,in,5.0,in,4,FSA-3000-5000-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,5.25,in,5,FSA-3000-5500-1,HS 5000-5500,B->Backend,CLAMP-5500,2,CLAMP-5500,2,False,Stretch stern,0.0,0.25,Rule Engine
+3.0,in,5.5,in,2,FSA-3000-5000-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,5.5,in,4,FSA-3000-5500-1,HOSE 5500,A->Backend,CLAMP-5500,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,6.0,in,2,FSA-3000-5000-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.0,in,6.5,in,2,FSA-3000-5500-1,HS 5500-6500,A->Backend,CLAMP-5500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,4.0,in,2,FSA-3250-4500-1,HS 4000-4500,B->Backend,CLAMP-4500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,4.0,in,2,FSA-3250-5000-1,HS 4000-5000,B->Backend,CLAMP-5000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,4.0,in,4,FSA-3250-4000-1,HOSE 4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,4.5,in,2,FSA-3250-4000-1,HS 4000-4500,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,4.5,in,2,FSA-3250-4500-1,HS 4500-4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,4.5,in,2,FSA-3250-5000-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,4.5,in,4,FSA-3250-4500-1,HOSE 4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,4.75,in,5,FSA-3250-5000-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-5000,2,False,Stretch stern,0.0,0.25,Rule Engine
+3.25,in,5.0,in,2,FSA-3250-4000-1,HS 4000-5000,A->Backend,CLAMP-4000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,5.0,in,2,FSA-3250-4500-1,HS 4500-5000,A->Backend,CLAMP-4500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,5.0,in,4,FSA-3250-5000-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,5.5,in,2,FSA-3250-5000-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.25,in,6.0,in,2,FSA-3250-5000-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,4.5,in,2,FSA-3500-4500-1,HS 4500-4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,4.5,in,2,FSA-3500-5000-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,4.5,in,4,FSA-3500-4500-1,HOSE 4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,5.0,in,2,FSA-3500-4500-1,HS 4500-5000,A->Backend,CLAMP-4500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,5.0,in,2,FSA-3500-5500-1,HS 5000-5500,B->Backend,CLAMP-5500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,5.0,in,4,FSA-3500-5000-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,5.25,in,5,FSA-3500-5500-1,HS 5000-5500,B->Backend,CLAMP-5500,2,CLAMP-5500,2,False,Stretch stern,0.0,0.25,Rule Engine
+3.5,in,5.5,in,2,FSA-3500-5000-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,5.5,in,2,FSA-3500-6500-1,HS 5500-6500,B->Backend,CLAMP-6500,3,CLAMP-5500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,5.5,in,4,FSA-3500-5500-1,HOSE 5500,A->Backend,CLAMP-5500,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,6.0,in,2,FSA-3500-5000-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,6.5,in,2,FSA-3500-5500-1,HS 5500-6500,A->Backend,CLAMP-5500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,6.5,in,4,FSA-3500-6500-1,HOSE 6500,A->Backend,CLAMP-6500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.5,in,7.0,in,2,FSA-3500-6500-1,HS 6500-7000,A->Backend,CLAMP-6500,3,CLAMP-7000,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.75,in,4.5,in,2,FSA-3750-5000-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.75,in,5.5,in,2,FSA-3750-5000-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.75,in,5.5,in,2,FSA-3750-6500-1,HS 5500-6500,B->Backend,CLAMP-6500,3,CLAMP-5500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.75,in,6.0,in,2,FSA-3750-5000-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.75,in,6.5,in,2,FSA-3750-7000-1,HS 6500-7000,B->Backend,CLAMP-7000,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.75,in,6.5,in,4,FSA-3750-6500-1,HOSE 6500,A->Backend,CLAMP-6500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.75,in,7.0,in,2,FSA-3750-6500-1,HS 6500-7000,A->Backend,CLAMP-6500,3,CLAMP-7000,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+3.75,in,7.0,in,4,FSA-3750-7000-1,HOSE 7000,A->Backend,CLAMP-7000,3,CLAMP-7000,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.0,in,5.0,in,2,FSA-4000-5500-1,HS 5000-5500,B->Backend,CLAMP-5500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.0,in,5.0,in,4,FSA-4000-5000-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.0,in,5.5,in,2,FSA-4000-5000-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.0,in,5.5,in,4,FSA-4000-5500-1,HOSE 5500,A->Backend,CLAMP-5500,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.0,in,6.0,in,2,FSA-4000-5000-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.0,in,6.5,in,2,FSA-4000-5500-1,HS 5500-6500,A->Backend,CLAMP-5500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.25,in,6.5,in,2,FSA-4250-5500-1,HS 5500-6500,A->Backend,CLAMP-5500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.5,in,5.5,in,2,FSA-4500-6500-1,HS 5500-6500,B->Backend,CLAMP-6500,3,CLAMP-5500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.5,in,5.5,in,4,FSA-4500-5500-1,HOSE 5500,A->Backend,CLAMP-5500,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.5,in,6.5,in,2,FSA-4500-5500-1,HS 5500-6500,A->Backend,CLAMP-5500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.5,in,6.5,in,2,FSA-4500-7000-1,HS 6500-7000,B->Backend,CLAMP-7000,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.5,in,6.5,in,4,FSA-4500-6500-1,HOSE 6500,A->Backend,CLAMP-6500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.5,in,7.0,in,2,FSA-4500-6500-1,HS 6500-7000,A->Backend,CLAMP-6500,3,CLAMP-7000,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.5,in,7.0,in,4,FSA-4500-7000-1,HOSE 7000,A->Backend,CLAMP-7000,3,CLAMP-7000,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.5,in,8.0,in,2,FSA-4500-6500-1,HS 6500-8000,A->Backend,CLAMP-6500,3,CLAMP-8000,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+4.5,in,8.0,in,2,FSA-4500-7000-1,HS 7000-8000,A->Backend,CLAMP-7000,3,CLAMP-8000,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+5.0,in,6.5,in,4,FSA-5000-6500-1,HOSE 6500,A->Backend,CLAMP-6500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+5.0,in,7.0,in,2,FSA-5000-6500-1,HS 6500-7000,A->Backend,CLAMP-6500,3,CLAMP-7000,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+5.0,in,8.0,in,2,FSA-5000-6500-1,HS 6500-8000,A->Backend,CLAMP-6500,3,CLAMP-8000,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+25.0,mm,44.0,mm,2,FSA-25M-51M-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+25.0,mm,45.0,mm,2,FSA-25M-51M-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+25.0,mm,48.0,mm,4,FSA-25M-51M-1,HOSE 1875,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch backend,0.1328740157480315,0.0,Rule Engine
+25.0,mm,48.0,mm,5,FSA-25M-51M-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch stern,0.0,0.13976377952755922,Rule Engine
+25.0,mm,51.0,mm,2,FSA-25M-51M-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+25.0,mm,51.0,mm,4,FSA-25M-51M-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+25.0,mm,51.0,mm,6,FSA-25M-51M-1,HOSE 1875,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch both ends,0.1328740157480315,0.1328740157480315,Rule Engine
+25.0,mm,57.0,mm,4,FSA-25M-60M-1,HOSE 2250,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,Stretch backend,0.11220472440944888,0.0,Rule Engine
+25.0,mm,57.0,mm,5,FSA-25M-51M-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.2440944881889765,Rule Engine
+25.0,mm,57.0,mm,5,FSA-25M-51M-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.2440944881889765,Rule Engine
+30.0,mm,45.0,mm,2,FSA-30M-51M-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+30.0,mm,48.0,mm,4,FSA-30M-51M-1,HOSE 1875,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch backend,0.1328740157480315,0.0,Rule Engine
+30.0,mm,48.0,mm,5,FSA-30M-51M-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch stern,0.0,0.13976377952755922,Rule Engine
+30.0,mm,51.0,mm,2,FSA-30M-51M-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+30.0,mm,51.0,mm,4,FSA-30M-51M-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+30.0,mm,51.0,mm,6,FSA-30M-51M-1,HOSE 1875,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch both ends,0.1328740157480315,0.1328740157480315,Rule Engine
+30.0,mm,54.0,mm,5,FSA-30M-51M-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.12598425196850405,Rule Engine
+30.0,mm,54.0,mm,5,FSA-30M-51M-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.12598425196850405,Rule Engine
+30.0,mm,57.0,mm,4,FSA-30M-60M-1,HOSE 2250,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,Stretch backend,0.11220472440944888,0.0,Rule Engine
+30.0,mm,57.0,mm,5,FSA-30M-51M-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.2440944881889765,Rule Engine
+30.0,mm,57.0,mm,5,FSA-30M-51M-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.2440944881889765,Rule Engine
+30.0,mm,60.0,mm,4,FSA-30M-60M-1,HOSE 2375,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+30.0,mm,60.0,mm,6,FSA-30M-60M-1,HOSE 2250,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,Stretch both ends,0.11220472440944888,0.11220472440944888,Rule Engine
+35.0,mm,45.0,mm,2,FSA-35M-51M-1,HS 1750-2000,B->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+35.0,mm,51.0,mm,2,FSA-35M-51M-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+35.0,mm,51.0,mm,4,FSA-35M-51M-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+35.0,mm,51.0,mm,6,FSA-35M-51M-1,HOSE 1875,A->Backend,CLAMP-2000,2,CLAMP-2000,2,False,Stretch both ends,0.1328740157480315,0.1328740157480315,Rule Engine
+35.0,mm,54.0,mm,5,FSA-35M-51M-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.12598425196850405,Rule Engine
+35.0,mm,54.0,mm,5,FSA-35M-51M-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.12598425196850405,Rule Engine
+35.0,mm,57.0,mm,5,FSA-35M-51M-1,HS 2000-2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.2440944881889765,Rule Engine
+35.0,mm,57.0,mm,5,FSA-35M-51M-1,HOSE 2000,A->Backend,CLAMP-2000,2,CLAMP-2250,2,False,Stretch stern,0.0,0.2440944881889765,Rule Engine
+35.0,mm,60.0,mm,4,FSA-35M-64M-1,HOSE 2375,A->Backend,CLAMP-2500,2,CLAMP-2250,2,False,Stretch backend,0.14468503937007893,0.0,Rule Engine
+35.0,mm,64.0,mm,4,FSA-35M-64M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+35.0,mm,64.0,mm,6,FSA-35M-64M-1,HOSE 2375,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch both ends,0.14468503937007893,0.14468503937007893,Rule Engine
+35.0,mm,67.0,mm,2,FSA-35M-64M-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+35.0,mm,67.0,mm,5,FSA-35M-64M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.1377952755905512,Rule Engine
+35.0,mm,70.0,mm,2,FSA-35M-64M-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+35.0,mm,70.0,mm,5,FSA-35M-64M-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.13090551181102375,Rule Engine
+35.0,mm,76.0,mm,5,FSA-35M-64M-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.24212598425196874,Rule Engine
+40.0,mm,57.0,mm,4,FSA-40M-60M-1,HOSE 2250,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,Stretch backend,0.11220472440944888,0.0,Rule Engine
+40.0,mm,60.0,mm,4,FSA-40M-60M-1,HOSE 2375,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,60.0,mm,4,FSA-40M-64M-1,HOSE 2375,A->Backend,CLAMP-2500,2,CLAMP-2250,2,False,Stretch backend,0.14468503937007893,0.0,Rule Engine
+40.0,mm,60.0,mm,6,FSA-40M-60M-1,HOSE 2250,A->Backend,CLAMP-2250,2,CLAMP-2250,2,False,Stretch both ends,0.11220472440944888,0.11220472440944888,Rule Engine
+40.0,mm,63.0,mm,2,FSA-40M-67M-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,63.0,mm,3,FSA-40M-76M-1,HS 2500-2750,B->Backend,CLAMP-3000,2,CLAMP-2500,2,False,Stretch backend,0.24212598425196874,0.0,Rule Engine
+40.0,mm,63.0,mm,4,FSA-40M-64M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,63.0,mm,4,FSA-40M-67M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.1377952755905512,0.0,Rule Engine
+40.0,mm,64.0,mm,2,FSA-40M-67M-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,64.0,mm,3,FSA-40M-76M-1,HS 2500-2750,B->Backend,CLAMP-3000,2,CLAMP-2500,2,False,Stretch backend,0.24212598425196874,0.0,Rule Engine
+40.0,mm,64.0,mm,4,FSA-40M-64M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,64.0,mm,4,FSA-40M-67M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.1377952755905512,0.0,Rule Engine
+40.0,mm,64.0,mm,5,FSA-40M-60M-1,HOSE 2375,A->Backend,CLAMP-2250,2,CLAMP-2500,2,False,Stretch stern,0.0,0.14468503937007893,Rule Engine
+40.0,mm,67.0,mm,2,FSA-40M-64M-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,67.0,mm,3,FSA-40M-67M-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch backend,0.1377952755905512,0.0,Rule Engine
+40.0,mm,67.0,mm,4,FSA-40M-67M-1,HOSE 2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,67.0,mm,5,FSA-40M-64M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.1377952755905512,Rule Engine
+40.0,mm,67.0,mm,5,FSA-40M-67M-1,HS 2500-2625,B->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.1377952755905512,Rule Engine
+40.0,mm,70.0,mm,2,FSA-40M-64M-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,70.0,mm,3,FSA-40M-67M-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch backend,0.1377952755905512,0.0,Rule Engine
+40.0,mm,70.0,mm,4,FSA-40M-76M-1,HOSE 2750,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch backend,0.24212598425196874,0.0,Rule Engine
+40.0,mm,70.0,mm,5,FSA-40M-64M-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.13090551181102375,Rule Engine
+40.0,mm,70.0,mm,5,FSA-40M-67M-1,HOSE 2625,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.13090551181102375,Rule Engine
+40.0,mm,76.0,mm,2,FSA-40M-76M-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,76.0,mm,4,FSA-40M-76M-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+40.0,mm,76.0,mm,5,FSA-40M-64M-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.24212598425196874,Rule Engine
+40.0,mm,76.0,mm,6,FSA-40M-67M-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch both ends,0.1377952755905512,0.24212598425196874,Rule Engine
+40.0,mm,76.0,mm,6,FSA-40M-76M-1,HOSE 2750,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch both ends,0.24212598425196874,0.24212598425196874,Rule Engine
+40.0,mm,79.0,mm,5,FSA-40M-76M-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch stern,0.0,0.1102362204724414,Rule Engine
+40.0,mm,79.0,mm,5,FSA-40M-76M-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch stern,0.0,0.1102362204724414,Rule Engine
+40.0,mm,79.0,mm,6,FSA-40M-76M-1,HOSE 2875,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch both ends,0.11712598425196885,0.2352362204724413,Rule Engine
+40.0,mm,89.0,mm,2,FSA-40M-76M-1,HS 3000-3500,A->Backend,CLAMP-3000,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+45.0,mm,63.0,mm,3,FSA-45M-76M-1,HS 2500-2750,B->Backend,CLAMP-3000,2,CLAMP-2500,2,False,Stretch backend,0.24212598425196874,0.0,Rule Engine
+45.0,mm,63.0,mm,4,FSA-45M-63M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+45.0,mm,64.0,mm,3,FSA-45M-76M-1,HS 2500-2750,B->Backend,CLAMP-3000,2,CLAMP-2500,2,False,Stretch backend,0.24212598425196874,0.0,Rule Engine
+45.0,mm,64.0,mm,4,FSA-45M-63M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+45.0,mm,67.0,mm,2,FSA-45M-63M-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+45.0,mm,67.0,mm,5,FSA-45M-63M-1,HOSE 2500,A->Backend,CLAMP-2500,2,CLAMP-2500,2,False,Stretch stern,0.0,0.1377952755905512,Rule Engine
+45.0,mm,67.0,mm,6,FSA-45M-76M-1,HS 2500-2750,B->Backend,CLAMP-3000,2,CLAMP-2500,2,False,Stretch both ends,0.24212598425196874,0.1377952755905512,Rule Engine
+45.0,mm,70.0,mm,2,FSA-45M-63M-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+45.0,mm,70.0,mm,4,FSA-45M-76M-1,HOSE 2750,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch backend,0.24212598425196874,0.0,Rule Engine
+45.0,mm,70.0,mm,5,FSA-45M-63M-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.13090551181102375,Rule Engine
+45.0,mm,73.0,mm,4,FSA-45M-76M-1,HOSE 2875,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch backend,0.11712598425196885,0.0,Rule Engine
+45.0,mm,73.0,mm,5,FSA-45M-63M-1,HS 2500-2625,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.24901574803149618,Rule Engine
+45.0,mm,73.0,mm,5,FSA-45M-63M-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.12401574803149629,Rule Engine
+45.0,mm,73.0,mm,6,FSA-45M-76M-1,HOSE 2750,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch both ends,0.24212598425196874,0.12401574803149629,Rule Engine
+45.0,mm,76.0,mm,2,FSA-45M-76M-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+45.0,mm,76.0,mm,4,FSA-45M-76M-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+45.0,mm,76.0,mm,5,FSA-45M-63M-1,HS 2500-2750,A->Backend,CLAMP-2500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.24212598425196874,Rule Engine
+45.0,mm,76.0,mm,6,FSA-45M-76M-1,HOSE 2750,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch both ends,0.24212598425196874,0.24212598425196874,Rule Engine
+45.0,mm,76.0,mm,6,FSA-45M-76M-1,HOSE 2875,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch both ends,0.11712598425196885,0.11712598425196885,Rule Engine
+45.0,mm,79.0,mm,5,FSA-45M-76M-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch stern,0.0,0.1102362204724414,Rule Engine
+45.0,mm,79.0,mm,5,FSA-45M-76M-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch stern,0.0,0.1102362204724414,Rule Engine
+45.0,mm,79.0,mm,6,FSA-45M-76M-1,HOSE 2875,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch both ends,0.11712598425196885,0.2352362204724413,Rule Engine
+45.0,mm,89.0,mm,2,FSA-45M-76M-1,HS 3000-3500,A->Backend,CLAMP-3000,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,64.0,mm,3,FSA-50M-76M-1,HS 2500-2750,B->Backend,CLAMP-3000,2,CLAMP-2500,2,False,Stretch backend,0.24212598425196874,0.0,Rule Engine
+50.0,mm,70.0,mm,4,FSA-50M-76M-1,HOSE 2750,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch backend,0.24212598425196874,0.0,Rule Engine
+50.0,mm,76.0,mm,2,FSA-50M-76M-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,76.0,mm,2,FSA-50M-89M-1,HS 3000-3500,B->Backend,CLAMP-3500,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,76.0,mm,3,FSA-50M-79M-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch backend,0.1102362204724414,0.0,Rule Engine
+50.0,mm,76.0,mm,4,FSA-50M-76M-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,76.0,mm,4,FSA-50M-79M-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch backend,0.1102362204724414,0.0,Rule Engine
+50.0,mm,79.0,mm,4,FSA-50M-79M-1,HOSE 3125,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,79.0,mm,4,FSA-50M-83M-1,HOSE 3125,A->Backend,CLAMP-3500,2,CLAMP-3000,2,False,Stretch backend,0.14271653543307086,0.0,Rule Engine
+50.0,mm,79.0,mm,5,FSA-50M-76M-1,HS 3000-3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch stern,0.0,0.1102362204724414,Rule Engine
+50.0,mm,79.0,mm,5,FSA-50M-76M-1,HOSE 3000,A->Backend,CLAMP-3000,2,CLAMP-3000,2,False,Stretch stern,0.0,0.1102362204724414,Rule Engine
+50.0,mm,79.0,mm,5,FSA-50M-89M-1,HS 3000-3500,B->Backend,CLAMP-3500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.1102362204724414,Rule Engine
+50.0,mm,83.0,mm,2,FSA-50M-83M-1,HS 3250-3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,83.0,mm,4,FSA-50M-83M-1,HOSE 3250,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,83.0,mm,5,FSA-50M-79M-1,HOSE 3125,A->Backend,CLAMP-3000,2,CLAMP-3500,2,False,Stretch stern,0.0,0.14271653543307086,Rule Engine
+50.0,mm,83.0,mm,6,FSA-50M-83M-1,HOSE 3125,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,Stretch both ends,0.14271653543307086,0.14271653543307086,Rule Engine
+50.0,mm,89.0,mm,2,FSA-50M-76M-1,HS 3000-3500,A->Backend,CLAMP-3000,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,89.0,mm,2,FSA-50M-89M-1,HS 3500-3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,89.0,mm,3,FSA-50M-79M-1,HS 3000-3500,A->Backend,CLAMP-3000,2,CLAMP-3500,2,False,Stretch backend,0.1102362204724414,0.0,Rule Engine
+50.0,mm,89.0,mm,4,FSA-50M-89M-1,HOSE 3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,95.0,mm,2,FSA-50M-89M-1,HS 3500-3750,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+50.0,mm,102.0,mm,2,FSA-50M-89M-1,HS 3500-4000,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+55.0,mm,76.0,mm,2,FSA-55M-89M-1,HS 3000-3500,B->Backend,CLAMP-3500,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+55.0,mm,79.0,mm,5,FSA-55M-89M-1,HS 3000-3500,B->Backend,CLAMP-3500,2,CLAMP-3000,2,False,Stretch stern,0.0,0.1102362204724414,Rule Engine
+55.0,mm,89.0,mm,2,FSA-55M-89M-1,HS 3500-3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+55.0,mm,89.0,mm,4,FSA-55M-89M-1,HOSE 3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+55.0,mm,95.0,mm,2,FSA-55M-89M-1,HS 3500-3750,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+55.0,mm,102.0,mm,2,FSA-55M-89M-1,HS 3500-4000,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,76.0,mm,2,FSA-60M-89M-1,HS 3000-3500,B->Backend,CLAMP-3500,2,CLAMP-3000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,89.0,mm,2,FSA-60M-89M-1,HS 3500-3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,89.0,mm,2,FSA-60M-102M-1,HS 3500-4000,B->Backend,CLAMP-4000,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,89.0,mm,4,FSA-60M-89M-1,HOSE 3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,95.0,mm,2,FSA-60M-89M-1,HS 3500-3750,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,102.0,mm,2,FSA-60M-89M-1,HS 3500-4000,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,102.0,mm,4,FSA-60M-102M-1,HOSE 4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,108.0,mm,2,FSA-60M-102M-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,114.0,mm,2,FSA-60M-102M-1,HS 4000-4500,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+60.0,mm,114.0,mm,5,FSA-60M-102M-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,Stretch stern,0.0,0.23818897637795322,Rule Engine
+65.0,mm,89.0,mm,2,FSA-65M-89M-1,HS 3500-3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+65.0,mm,89.0,mm,2,FSA-65M-102M-1,HS 3500-4000,B->Backend,CLAMP-4000,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+65.0,mm,89.0,mm,4,FSA-65M-89M-1,HOSE 3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+65.0,mm,95.0,mm,2,FSA-65M-89M-1,HS 3500-3750,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+65.0,mm,102.0,mm,2,FSA-65M-89M-1,HS 3500-4000,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+65.0,mm,102.0,mm,4,FSA-65M-102M-1,HOSE 4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+65.0,mm,114.0,mm,2,FSA-65M-102M-1,HS 4000-4500,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+65.0,mm,114.0,mm,5,FSA-65M-102M-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,Stretch stern,0.0,0.23818897637795322,Rule Engine
+65.0,mm,127.0,mm,2,FSA-65M-102M-1,HS 4000-5000,A->Backend,CLAMP-4000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+70.0,mm,89.0,mm,2,FSA-70M-89M-1,HS 3500-3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+70.0,mm,89.0,mm,2,FSA-70M-102M-1,HS 3500-4000,B->Backend,CLAMP-4000,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+70.0,mm,89.0,mm,4,FSA-70M-89M-1,HOSE 3500,A->Backend,CLAMP-3500,2,CLAMP-3500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+70.0,mm,95.0,mm,2,FSA-70M-89M-1,HS 3500-3750,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+70.0,mm,102.0,mm,2,FSA-70M-89M-1,HS 3500-4000,A->Backend,CLAMP-3500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+70.0,mm,102.0,mm,4,FSA-70M-102M-1,HOSE 4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+70.0,mm,108.0,mm,2,FSA-70M-102M-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+70.0,mm,114.0,mm,2,FSA-70M-102M-1,HS 4000-4500,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+70.0,mm,114.0,mm,5,FSA-70M-102M-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,Stretch stern,0.0,0.23818897637795322,Rule Engine
+70.0,mm,127.0,mm,2,FSA-70M-102M-1,HS 4000-5000,A->Backend,CLAMP-4000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+75.0,mm,102.0,mm,4,FSA-75M-102M-1,HOSE 4000,A->Backend,CLAMP-4000,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+75.0,mm,108.0,mm,2,FSA-75M-102M-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+75.0,mm,114.0,mm,2,FSA-75M-102M-1,HS 4000-4500,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+75.0,mm,114.0,mm,5,FSA-75M-102M-1,HS 4000-4250,A->Backend,CLAMP-4000,2,CLAMP-4500,2,False,Stretch stern,0.0,0.23818897637795322,Rule Engine
+75.0,mm,127.0,mm,2,FSA-75M-102M-1,HS 4000-5000,A->Backend,CLAMP-4000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+80.0,mm,102.0,mm,2,FSA-80M-114M-1,HS 4000-4500,B->Backend,CLAMP-4500,2,CLAMP-4000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+80.0,mm,102.0,mm,3,FSA-80M-114M-1,HS 4000-4250,B->Backend,CLAMP-4500,2,CLAMP-4000,2,False,Stretch backend,0.23818897637795322,0.0,Rule Engine
+80.0,mm,108.0,mm,4,FSA-80M-114M-1,HOSE 4250,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,Stretch backend,0.23818897637795322,0.0,Rule Engine
+80.0,mm,114.0,mm,2,FSA-80M-114M-1,HS 4500-4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+80.0,mm,114.0,mm,4,FSA-80M-114M-1,HOSE 4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+80.0,mm,114.0,mm,6,FSA-80M-114M-1,HOSE 4250,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,Stretch both ends,0.23818897637795322,0.23818897637795322,Rule Engine
+80.0,mm,127.0,mm,2,FSA-80M-114M-1,HS 4500-5000,A->Backend,CLAMP-4500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+85.0,mm,114.0,mm,2,FSA-85M-114M-1,HS 4500-4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+85.0,mm,114.0,mm,2,FSA-85M-127M-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+85.0,mm,114.0,mm,4,FSA-85M-114M-1,HOSE 4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+85.0,mm,114.0,mm,6,FSA-85M-114M-1,HOSE 4250,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,Stretch both ends,0.23818897637795322,0.23818897637795322,Rule Engine
+85.0,mm,127.0,mm,2,FSA-85M-114M-1,HS 4500-5000,A->Backend,CLAMP-4500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+85.0,mm,127.0,mm,4,FSA-85M-127M-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+85.0,mm,140.0,mm,2,FSA-85M-127M-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+85.0,mm,152.0,mm,2,FSA-85M-127M-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+90.0,mm,114.0,mm,2,FSA-90M-114M-1,HS 4500-4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+90.0,mm,114.0,mm,2,FSA-90M-127M-1,HS 4500-5000,B->Backend,CLAMP-5000,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+90.0,mm,114.0,mm,4,FSA-90M-114M-1,HOSE 4500,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+90.0,mm,114.0,mm,6,FSA-90M-114M-1,HOSE 4250,A->Backend,CLAMP-4500,2,CLAMP-4500,2,False,Stretch both ends,0.23818897637795322,0.23818897637795322,Rule Engine
+90.0,mm,127.0,mm,2,FSA-90M-114M-1,HS 4500-5000,A->Backend,CLAMP-4500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+90.0,mm,127.0,mm,4,FSA-90M-127M-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+90.0,mm,140.0,mm,2,FSA-90M-127M-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+90.0,mm,152.0,mm,2,FSA-90M-127M-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+95.0,mm,127.0,mm,2,FSA-95M-140M-1,HS 5000-5500,B->Backend,CLAMP-5500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+95.0,mm,127.0,mm,4,FSA-95M-127M-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+95.0,mm,140.0,mm,2,FSA-95M-127M-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+95.0,mm,140.0,mm,4,FSA-95M-140M-1,HOSE 5500,A->Backend,CLAMP-5500,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+95.0,mm,152.0,mm,2,FSA-95M-127M-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+95.0,mm,165.0,mm,2,FSA-95M-140M-1,HS 5500-6500,A->Backend,CLAMP-5500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+100.0,mm,127.0,mm,2,FSA-100M-140M-1,HS 5000-5500,B->Backend,CLAMP-5500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+100.0,mm,127.0,mm,4,FSA-100M-127M-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+100.0,mm,140.0,mm,2,FSA-100M-127M-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+100.0,mm,140.0,mm,4,FSA-100M-140M-1,HOSE 5500,A->Backend,CLAMP-5500,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+100.0,mm,152.0,mm,2,FSA-100M-127M-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+100.0,mm,165.0,mm,2,FSA-100M-140M-1,HS 5500-6500,A->Backend,CLAMP-5500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+105.0,mm,127.0,mm,2,FSA-105M-140M-1,HS 5000-5500,B->Backend,CLAMP-5500,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+105.0,mm,127.0,mm,4,FSA-105M-127M-1,HOSE 5000,A->Backend,CLAMP-5000,2,CLAMP-5000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+105.0,mm,140.0,mm,2,FSA-105M-127M-1,HS 5000-5500,A->Backend,CLAMP-5000,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+105.0,mm,140.0,mm,4,FSA-105M-140M-1,HOSE 5500,A->Backend,CLAMP-5500,2,CLAMP-5500,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+105.0,mm,152.0,mm,2,FSA-105M-127M-1,HS 5000-6000,A->Backend,CLAMP-5000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+105.0,mm,165.0,mm,2,FSA-105M-140M-1,HS 5500-6500,A->Backend,CLAMP-5500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+110.0,mm,152.0,mm,4,FSA-110M-152M-1,HOSE 6000,A->Backend,CLAMP-6000,2,CLAMP-6000,2,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
+110.0,mm,165.0,mm,2,FSA-110M-140M-1,HS 5500-6500,A->Backend,CLAMP-5500,3,CLAMP-6500,3,False,No stretch (tolerance ok),0.0,0.0,Rule Engine
