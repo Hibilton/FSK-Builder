@@ -177,8 +177,9 @@ def main():
     # Defaults
     if "ms" not in st.session_state:
         st.session_state["ms"] = "Imperial"
+
     if "mode" not in st.session_state:
-        st.session_state["mode"] = "Stocked + Can order"
+        st.session_state["mode"] = "Stocked by us"
 
     # Availability toggle FIRST (so dropdowns reflect it)
     mode = st.sidebar.radio(
