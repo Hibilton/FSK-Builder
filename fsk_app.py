@@ -2,8 +2,8 @@ import pathlib
 import pandas as pd
 import streamlit as st
 
-CSV_STOCKED = "fsk_build_options_generated_v15_stocked_only_with_hats.csv"
-CSV_STOCKED_OR_ORDERABLE = "fsk_build_options_generated_v15_stocked_or_orderable_with_hats.csv"
+CSV_STOCKED = "fsk_build_options_generated_v16_stocked_only_with_hats.csv"
+CSV_STOCKED_OR_ORDERABLE = "fsk_build_options_generated_v16_stocked_or_orderable_with_hats.csv"
 
 SHAFT_CUTOFF_IN = 2.75
 PRIORITY_MAP = {
