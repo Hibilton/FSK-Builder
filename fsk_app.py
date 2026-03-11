@@ -128,6 +128,7 @@ def final_dedupe(df: pd.DataFrame) -> pd.DataFrame:
 
 def option_parts_df(row: pd.Series, injection_choice: str) -> pd.DataFrame:
     parts = [
+        ("FSA", str(row["FSA_Template"])),
         ("Hose", str(row["Hose_Code"])),
         ("Clamp (Backend)", f'{row["Clamp1_Code"]} × {int(row["Clamp1_Qty"]) if pd.notna(row["Clamp1_Qty"]) else "—"}'),
         ("Clamp (Stern)", f'{row["Clamp2_Code"]} × {int(row["Clamp2_Qty"]) if pd.notna(row["Clamp2_Qty"]) else "—"}'),
