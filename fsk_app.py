@@ -101,7 +101,7 @@ def pipe_plug_label(shaft: float, units: str) -> str:
 
 
 def build_fsk_display_sku(ms: str, shaft: float, stern: float, injection_choice: str) -> str:
-    suffix = "00" if injection_choice == "Single - 00" else "01"
+    suffix = "0" if injection_choice == "Single - 0" else "1"
     if ms == "Metric":
         return f"FSKM-{int(shaft)}M-{int(stern)}M-{suffix}"
     return f"FSK-{int(round(shaft * 1000)):04d}-{int(round(stern * 1000)):04d}-{suffix}"
@@ -181,7 +181,7 @@ def main():
     if "mode" not in st.session_state:
         st.session_state["mode"] = "Stocked by us"
     if "inj" not in st.session_state:
-        st.session_state["inj"] = "Dual - 01"
+        st.session_state["inj"] = "Dual - 1"
 
     ms_union = sorted(set(df_stocked["Measurement_System"].unique()).union(set(df_orderable["Measurement_System"].unique())))
     if st.session_state["ms"] not in ms_union:
@@ -227,8 +227,8 @@ def main():
 
     injection_choice = st.sidebar.radio(
         "Injection fitting?",
-        ["Single - 00", "Dual - 01"],
-        index=0 if st.session_state["inj"] == "Single - 00" else 1,
+        ["Single - 0", "Dual - 1"],
+        index=0 if st.session_state["inj"] == "Single - 0" else 1,
         key="inj",
     )
 
