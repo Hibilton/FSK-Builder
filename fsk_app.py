@@ -1,9 +1,11 @@
+# fsk_app.py
+
 import pathlib
 import pandas as pd
 import streamlit as st
 
-CSV_STOCKED = "fsk_build_options_generated_v17_stocked_only_with_hats.csv"
-CSV_STOCKED_OR_ORDERABLE = "fsk_build_options_generated_v17_stocked_or_orderable_with_hats.csv"
+CSV_STOCKED = "fsk_build_options_generated_v19_stocked_only_with_hats_pipe_plugs_smartseal.csv"
+CSV_STOCKED_OR_ORDERABLE = "fsk_build_options_generated_v19_stocked_or_orderable_with_hats_pipe_plugs_smartseal.csv"
 
 TIDES_BLUE = "#0b5072"
 TIDES_TEAL = "#038e84"
@@ -38,17 +40,28 @@ def load_csv(path: str) -> pd.DataFrame:
         "FSK_SKU", "ShaftSize", "ShaftUnits", "SternSize", "SternUnits",
         "Priority", "FSA_Template", "Hose_Code",
         "Clamp1_Code", "Clamp1_Qty", "Clamp2_Code", "Clamp2_Qty",
-        "Hat_SKU", "Hat_Qty",
+        "Hat_SKU", "Hat_Qty", "Pipe_Plug_SKU", "Pipe_Plug_Qty",
     ]
     missing = [c for c in required if c not in df.columns]
     if missing:
         raise KeyError(f"CSV missing columns: {missing}")
 
-    for c in ["ShaftSize", "SternSize", "Priority", "Clamp1_Qty", "Clamp2_Qty", "Hat_Qty", "Stretch_Backend_in", "Stretch_Stern_in"]:
+    numeric_cols = [
+        "ShaftSize", "SternSize", "Priority", "Clamp1_Qty", "Clamp2_Qty",
+        "Hat_Qty", "Pipe_Plug_Qty", "SmartSeal_Qty",
+        "Stretch_Backend_in", "Stretch_Stern_in"
+    ]
+    for c in numeric_cols:
         if c in df.columns:
             df[c] = pd.to_numeric(df[c], errors="coerce")
 
-    for c in ["ShaftUnits", "SternUnits", "FSA_Template", "Hose_Code", "Clamp1_Code", "Clamp2_Code", "Hat_SKU", "Stretch_Type", "Comments", "Hose_Orientation"]:
+    text_cols = [
+        "ShaftUnits", "SternUnits", "FSA_Template", "Hose_Code",
+        "Clamp1_Code", "Clamp2_Code", "Hat_SKU", "Pipe_Plug_SKU",
+        "SmartSeal_SKU", "SmartSeal_Prompt", "SmartSeal_Add_Mode",
+        "Stretch_Type", "Comments", "Hose_Orientation"
+    ]
+    for c in text_cols:
         if c in df.columns:
             df[c] = df[c].astype("string").str.strip()
 
@@ -97,7 +110,7 @@ def crossover_label(shaft: float, units: str) -> str:
 
 
 def pipe_plug_label(shaft: float, units: str) -> str:
-    return "Pipe Plug 375" if shaft_in_inches(shaft, units) <= SHAFT_CUTOFF_IN else "Pipe Plug 500"
+    return "Pipe Plug 0250" if shaft_in_inches(shaft, units) <= 2.75 else "Pipe Plug 0375"
 
 
 def build_fsk_display_sku(ms: str, shaft: float, stern: float, injection_choice: str) -> str:
@@ -108,7 +121,7 @@ def build_fsk_display_sku(ms: str, shaft: float, stern: float, injection_choice:
 
 
 def filter_by_injection(df: pd.DataFrame, injection_choice: str) -> pd.DataFrame:
-    wanted = "0" if injection_choice == "Single - 00" else "1"
+    wanted = "0" if injection_choice == "Single - 0" else "1"
     return df[df["FSK_SKU"].astype(str).str.strip().str.endswith(f"-{wanted}")].copy()
 
 
@@ -121,6 +134,7 @@ def final_dedupe(df: pd.DataFrame) -> pd.DataFrame:
         "Clamp1_Code", "Clamp1_Qty",
         "Clamp2_Code", "Clamp2_Qty",
         "Hat_SKU", "Hat_Qty",
+        "Pipe_Plug_SKU", "Pipe_Plug_Qty",
     ]
     df = df.drop_duplicates(subset=dedupe_cols, keep="first").copy()
     return df.reset_index(drop=True)
@@ -134,13 +148,39 @@ def option_parts_df(row: pd.Series, injection_choice: str) -> pd.DataFrame:
         ("Clamp (Stern)", f'{row["Clamp2_Code"]} × {int(row["Clamp2_Qty"]) if pd.notna(row["Clamp2_Qty"]) else "—"}'),
         ("Hat", f'{row["Hat_SKU"]} × {int(row["Hat_Qty"]) if pd.notna(row["Hat_Qty"]) else 1}'),
     ]
-    if injection_choice == "Single - 00":
-        parts.append(("Pipe Plug Needed", pipe_plug_label(float(row["ShaftSize"]), str(row["ShaftUnits"]))))
+
+    if injection_choice == "Single - 0":
+        plug_sku = str(row.get("Pipe_Plug_SKU", "")).strip()
+        plug_qty = int(row["Pipe_Plug_Qty"]) if pd.notna(row.get("Pipe_Plug_Qty", None)) and row["Pipe_Plug_Qty"] else 1
+        if plug_sku:
+            parts.append(("Pipe Plug Needed", f"{plug_sku} × {plug_qty}"))
+        else:
+            parts.append(("Pipe Plug Needed", pipe_plug_label(float(row["ShaftSize"]), str(row["ShaftUnits"]))))
+
     parts.extend([
         ("Priority", str(int(row["Priority"]))),
         ("Priority meaning", FULL_PRIORITY_MAP.get(int(row["Priority"]), "")),
     ])
+
     return pd.DataFrame(parts, columns=["Part", "Value"])
+
+
+def smartseal_df(row: pd.Series):
+    sku = str(row.get("SmartSeal_SKU", "")).strip()
+    if not sku:
+        return None
+
+    prompt = str(row.get("SmartSeal_Prompt", "")).strip()
+    qty = int(row["SmartSeal_Qty"]) if pd.notna(row.get("SmartSeal_Qty", None)) and row["SmartSeal_Qty"] else 1
+
+    return pd.DataFrame(
+        [
+            ("Smart Seal Temperature Alarm System", sku),
+            ("Prompt", prompt if prompt else "Add a Smart Seal Temperature Alarm System?"),
+            ("Qty", qty),
+        ],
+        columns=["Item", "Value"]
+    )
 
 
 def converter_ui():
@@ -270,7 +310,7 @@ def main():
     st.subheader(f"{display_fsk_sku} Build Options")
     st.write(f"**Shaft:** {fmt_value(float(shaft), shaft_units)}  |  **Stern OD:** {fmt_value(float(stern), stern_units)}")
     st.caption(f"If crossover hose needed: **{crossover_label(float(shaft), shaft_units)}**")
-    if injection_choice == "Single - 00":
+    if injection_choice == "Single - 0":
         st.caption(f"If pipe plug needed: **{pipe_plug_label(float(shaft), shaft_units)}**")
 
     for i, row in cand.iterrows():
@@ -280,6 +320,11 @@ def main():
 
         with st.expander(title, expanded=(i == 0)):
             st.table(option_parts_df(row, injection_choice))
+
+            smart_df = smartseal_df(row)
+            if smart_df is not None:
+                st.markdown("**Optional add-ons**")
+                st.table(smart_df)
 
             with st.expander("Advanced", expanded=False):
                 adv_items = [
